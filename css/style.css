@@ -1,0 +1,273 @@
+@media print {
+    #about {
+        display: none;
+    }
+    #ideas {
+        display: none;
+    }
+    #contact {
+        display: none;
+    }
+    .img-fluid {
+        display: none;
+    }
+    #contact {
+        display: none;
+    }
+
+    form {
+        display: none;
+    }
+    .tm-sidebar {
+        display: none;
+    }
+    .blocks {
+        display: none;
+    }
+    h2.tm-section-title {
+        color: blue;
+    }
+    p::first-letter {
+        font-size: 30px;
+        color: skyblue;
+    }
+    .tm-section-description {
+        font-style: italic;
+        text-indent: 20px;
+        width: 270px;
+    }
+    .tm-section-description:last-child{
+        font-style: normal;
+    }
+    body {
+        width: 500px;
+        margin: 0 auto;
+    }
+    #home {
+        margin: 0 auto;
+    }
+    .flex-item  img {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        right: 50px;
+        top: 470px;
+
+    }
+    .tm-content-box {
+        margin: 0;
+    }
+    section.heading {
+        display: none;
+    }
+
+}
+
+.tm-section-description {
+    font-style: italic;
+    text-indent: 20px;
+    width: 270px;
+    color: gainsboro;
+}
+
+.tm-section-description::first-letter {
+    color: lightskyblue;
+    font-size: 30px;
+}
+
+
+
+.tm-section-description:last-child {
+    font-style: normal;
+    color: black;
+}
+
+.box-bg:hover {
+    background: skyblue;
+}
+
+.box h2 {
+    font-size: 17px;
+}
+
+
+.box-bg h2:hover {
+    color:white;
+    font-weight: bold;
+}
+
+
+.tm-banner-inner p::first-letter{
+    color:lightskyblue;
+    font-size: 30px;
+}
+
+.tm-main-nav {
+    box-shadow: 0px 3px 3px grey;
+}
+
+.tm-content-box {
+    box-shadow: 0px 3px 5px grey;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tm-banner {
+    padding: 0;
+    border: 25px solid rgba(0,0,0, 0.03);
+}
+
+#home {
+    display: block;
+}
+#home::before {
+    display: none;
+}
+
+#about {
+    display: block;
+}
+
+#about::before {
+    display: none;
+}
+
+.heading::before {
+    display: none;
+}
+
+.blocks .tm-content-box::before {
+    display: none;
+}
+
+.tm-content-box::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 30px 270px 0 0;
+    border-color: skyblue transparent transparent transparent;
+
+}
+
+#tmCarousel::before {
+    display: none;
+}
+section.tm-content-box::before {
+    display: none;
+}
+
+section.tm-content-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tm-section-title {
+    margin: 123px 0 50px 0;
+}
+
+
+.heading a:visited {
+    text-decoration: underline;
+}
+
+.heading a {
+    color:black;
+}
+
+.heading a:hover {
+    content: '';
+    text-decoration-style: double;
+    color: lightskyblue;
+}
+
+.box h2 {
+    font-size: 22px;
+    margin: 0 auto;
+}
+
+.text:after {
+    content: 'New';
+    vertical-align: super;
+    color: red;
+    font-size: 11px;
+}
+
+.blocks .tm-section-title {
+    margin: 0 0 20px 0;
+}
+
+.blocks .tm-section-description::first-letter{
+    color: black;
+    font-size: 20px;
+}
+
+.blocks .tm-section-description {
+    color: black;
+    text-indent: 0;
+    font-style: normal;
+    width: auto;
+    
+}
+
+.box-work {
+    padding: 20px 5px 5px 5px;
+}
+
+.box-work p{
+    margin-top: 10px;
+}
+
+.box-work p::first-letter {
+    color: black;
+    font-size: 30px;
+}
+
+.box-work p{
+    color: grey;
+    font-style: italic;
+}
+
+.box-work:nth-child(even) {
+    background: rgba(1,1,1, 0.1);
+}
+
+.carousel-content{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-content .tm-section-title {
+    margin: 0;
+}
+
+.carousel-description {
+    width: auto;
+}
+
+.carousel-description::first-letter{
+    color: black;
+    font-size: 16px;
+}
+
+#contact {
+    width: 100%;
+}
+
+#contact .tm-section-title {
+    margin: 0 0 20px 0;
+}
+
+.submit-btn {
+    float: right;
+}
+
+.submit-btn:hover {
+    background-color: lightskyblue;
+    border-color: lightskyblue;
+}
+
+.tm-main-nav li:hover {
+    background-color: rgba(1, 1, 1, .1);
+}
